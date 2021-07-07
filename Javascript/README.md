@@ -1,6 +1,0 @@
-
-# Fundamentals of Javascript
-
-
-
-
