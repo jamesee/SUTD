@@ -1,10 +1,11 @@
-# Snippets of Classroom Exercise : Activity 2~7
-
-## The consolidated snippets can be viewed [here](classroom-exercises-consolidated.js) 
+# Homework
 
 ### Activity 1
 1. [Activity 1](https://scrimba.com/scrim/cB8vwytw)
 ![activity 1](images/hw-activity1.png)
+
+# Snippets of Classroom Exercise : Activity 2~7
+## The consolidated snippets can be viewed [here](consolidated-snippets.js) 
 
 ### Activity 2 ~ 7
 2. [Quadratic roots](https://scrimba.com/scrim/c4Qm2Vcp)
