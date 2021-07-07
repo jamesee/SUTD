@@ -1,0 +1,15 @@
+Dear Cyrille,
+
+I would like to point you to my github.com repository (https://github.com/jamesee/SUTD/tree/main/Javascript/2021-07-06) for the submission of homework. I think it would be easier for you to read the codes via github.
+
+Please see the markdown Submissions-20210706.md and click on the links to scrimba.com
+
+The codes for activity1 are in the folder "activity1".
+
+For the snippets of classroom exercises, I have consolidated them into a single file "consolidated-snippets.js" as per your instruction.
+
+Thank you.
+
+
+Yours sincerely,
+James Ee 
