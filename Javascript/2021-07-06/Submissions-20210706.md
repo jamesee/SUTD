@@ -1,8 +1,9 @@
 # Homework
 
 ### Activity 1
-1. [Activity 1](https://scrimba.com/scrim/cB8vwytw)
-![activity 1](images/hw-activity1.png)
+1. [Activity 1](activity1/index.html)
+ > The codes are in the "activity1" folder of the github repo  
+ > ![activity 1](images/hw-activity1.png)
 
 # Snippets of Classroom Exercise : Activity 2~7
 ## The consolidated snippets can be viewed [here](consolidated-snippets.js) 
