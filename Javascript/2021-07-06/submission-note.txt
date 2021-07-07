@@ -4,7 +4,7 @@ I would like to point you to my github.com repository (https://github.com/jamese
 
 Please see the markdown Submissions-20210706.md and click on the links to scrimba.com
 
-The codes for activity1 are in the folder "activity1".
+The codes for activity1 are in the folder "activity1". You can see the demo at https://jamesee.github.io/SUTD .
 
 For the snippets of classroom exercises, I have consolidated them into a single file "consolidated-snippets.js" as per your instruction.
 
