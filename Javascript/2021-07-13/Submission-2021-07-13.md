@@ -33,5 +33,5 @@
 9. [Euclide Algorithm for GCD](https://scrimba.com/scrim/cM3RGbsQ)
 ![Euclide Algorithm for GCD](images/hw-activity9.png)
 
-10. [Towers of Hanoi](https://scrimba.com/scrim/cM3RGbsQ)
+10. [Towers of Hanoi](https://scrimba.com/scrim/cr8gnnSG)
 ![Towers of Hanoi](images/hw-activity10.png)
