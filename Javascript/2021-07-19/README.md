@@ -2,7 +2,7 @@
 
 
 ## Class Exercises
-0. Introduction / Demo
+### 0. Introduction / Demo
 ```js
 // footer.js
 console.log('[DEBUG] getCurrentYear', helpers.getCurrentYear());
@@ -22,7 +22,7 @@ const footerDateEl = document.querySelector("#footer-today");
 footerDateEl.innerHTML = helpers.getCurrentDate();
 ```
 
-1. Exercise 1
+### 1. Exercise 1
 ![class exercise 1](images/class-ex1.png)
 
 ```js
@@ -41,7 +41,7 @@ let james = {
 console.log(x, y, james);
 ```  
 
-2. Exercise 2
+### 2. Exercise 2
 ![class exercise 2](images/class-ex2.png)
 ```js
 // calculator.js
@@ -62,7 +62,7 @@ function splitBill() {
 }
 ```
 
-3. Exercise 3
+### 3. Exercise 3
 ![class exercise 3](images/class-ex3.png)
 
 ```js
@@ -108,7 +108,7 @@ console.log(`There are ${numberOfSecondsPeriod(n,period)} seconds in ${n} ${peri
 
 ```
 
-4. Exercise 4
+### 4. Exercise 4
 ![class exercise 4](images/class-ex4.png)
 
 ```js
@@ -137,7 +137,7 @@ getRandomInt2 = (min,max) => {
 }
 ```
 
-5. Exercise 5
+### 5. Exercise 5
 ![class exercise 5](images/class-ex5.png)
 
 ```js
@@ -165,7 +165,7 @@ makeSectionCollapsible('toggle-btn-3', 'section-3');
 
 ```
 
-6. Exercise 6
+### 6. Exercise 6
 ![class exercise 6](images/class-ex6.png)
 
 ```js
@@ -193,7 +193,7 @@ const compute  = (ops, a, b) => {
 }
 ```
 
-7. Exercise 7
+### 7. Exercise 7
 ![class exercise 7](images/class-ex7.png)
 ```js
 const compute1  = (ops, a, b) => {
@@ -232,7 +232,8 @@ const compute2  = (ops, a, b) => {
 }
 
 ```
-8. Exercise 8
+
+### 8. Exercise 8
 ![class exercise 8](images/class-ex8.png)
 
 ```js
@@ -288,7 +289,7 @@ function splitBill() {
 document.querySelector('#splitBtn').addEventListener('click', splitBill);
 ```
 
-9. Take home homework for day1
+### 9. Take home homework for day1
 ![Homework day 1](images/hw-day1.png)
 ```js
 // video.js
