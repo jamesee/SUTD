@@ -169,6 +169,7 @@ makeSectionCollapsible('toggle-btn-3', 'section-3');
 ![class exercise 6](images/class-ex6.png)
 
 ```js
+// exercise.js
 const compute  = (ops, a, b) => {
 
     if (isNaN(a) || isNaN(b)) return "a or b is NaN";
@@ -196,6 +197,7 @@ const compute  = (ops, a, b) => {
 ### 7. Exercise 7
 ![class exercise 7](images/class-ex7.png)
 ```js
+// exercise.js
 const compute1  = (ops, a, b) => {
 
     if (isNaN(a) || isNaN(b)) return "a or b is NaN";
