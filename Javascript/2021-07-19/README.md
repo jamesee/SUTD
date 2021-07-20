@@ -371,8 +371,6 @@ async function playVideo() {
 }
 
 function handlePlayButton() {
-    
-  
   if (videoElem.paused) {
     playVideo();
   } else {
