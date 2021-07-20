@@ -317,3 +317,68 @@ btn.addEventListener('click', () => {
     }
 });
 ```
+#### New attempt, using the reference at mozilla.org
+```js
+// reference : https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play
+let videoElem = document.getElementById("vision-video");
+let playButton = document.getElementById("play-video-btn");
+
+playButton.addEventListener("click", handlePlayButton, false);
+// playVideo();
+
+async function playVideo() {
+  try {
+    await videoElem.play();
+    playButton.classList.add("playing");
+  } catch(err) {
+    playButton.classList.remove("playing");
+  }
+}
+
+function handlePlayButton() {
+  if (videoElem.paused) {
+    playButton.innerHTML = 'Paused video';
+    playVideo();
+    
+  } else {
+    playButton.innerHTML = 'Watch video';
+    videoElem.pause();
+    playButton.classList.remove("playing");
+  }
+}
+```
+#### Alternative solution using the classList to control the display text of button
+```js
+// reference : https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play
+let videoElem = document.getElementById("vision-video");
+let playButton = document.getElementById("play-video-btn");
+
+playButton.addEventListener("click", handlePlayButton, false);
+// playVideo();
+
+const playBtnDisplay = () => { 
+    playButton.innerHTML = (playButton.classList.contains("playing"))? 'Pause Video': 'Watch Video';
+}
+
+async function playVideo() {
+  try {
+    await videoElem.play();
+    playButton.classList.add("playing");
+  } catch(err) {
+    playButton.classList.remove("playing");
+  }
+  playBtnDisplay();
+}
+
+function handlePlayButton() {
+    
+  
+  if (videoElem.paused) {
+    playVideo();
+  } else {
+    videoElem.pause();
+    playButton.classList.remove("playing");
+  }
+  playBtnDisplay();
+}
+```
