@@ -293,6 +293,10 @@ document.querySelector('#splitBtn').addEventListener('click', splitBill);
 
 ### 9. Take home homework for day1
 ![Homework day 1](images/hw-day1.png)
+
+
+#### I found the file "video.js" (at the "javascript" folder) with the following code in it. I do not know what the homework question is looking for when the answer is already provided. I studied the code and felt that there is nothing much I can further add-value. As such, I just reproduced the code here.
+
 ```js
 // video.js
 const video = document.querySelector('#vision-video');
