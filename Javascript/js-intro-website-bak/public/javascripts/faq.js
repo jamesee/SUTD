@@ -26,3 +26,15 @@ makeCollapsible('faq-7');
 
 /* (Chapter 6) DEMO: allow html editor 
 to add more faq in future without js change */
+
+// const accordionBtns = Array.from(document.querySelectorAll('.js-accordion'));
+
+// accordionBtns.forEach(btns => {
+//   const panelId = btns.getAttribute('aria-controls');
+//   const panel = document.querySelector(`#${panelId}`);
+
+//   if(panel) {
+//     panel.classList.add('hidden');
+//     btn.addEventListener('click', ()=> panel.classList.toggle('hidden'));
+//   }
+// })

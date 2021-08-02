@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@types/node-fetch": "^2.5.11",
-    "nodemon": "1.18.4"
+    "nodemon": "^2.0.12"
   },
   "keywords": []
 }

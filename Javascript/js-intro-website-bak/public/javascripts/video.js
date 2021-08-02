@@ -16,6 +16,7 @@
 //     }
 // });
 
+//================================================================
 // reference : https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play
 // let videoElem = document.getElementById("vision-video");
 // let playButton = document.getElementById("play-video-btn");
@@ -44,6 +45,7 @@
 //   }
 // }
 
+//================================================================
 // reference : https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play
 let videoElem = document.getElementById("vision-video");
 let playButton = document.getElementById("play-video-btn");
