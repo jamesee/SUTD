@@ -11,6 +11,8 @@ function getServerTime(callback) {
   xmlHttp.send('');
 }
 
+
+
 getServerTime((serverDate) => console.log(`Server date is ${serverDate}`));
 
 /*================================================================================
