@@ -13,15 +13,16 @@ router.post('/login', (req, res)=>{
                 `)
                 .end();
 
+    } else {
+        return  res
+                .set({"Content-Type": "text/html"})
+                .status(401)
+                .send(`
+                <h1>Please provide something</h1>
+                <a href="/">Back Home</a>
+                `)
+                .end();
     }
-    res
-    .set({"Content-Type": "text/html"})
-    .status(401)
-    .send(`
-    <h1>Please provide something</h1>
-    <a href="/">Back Home</a>
-    `)
-    .end();
-});
+})
 
 module.exports = router;
